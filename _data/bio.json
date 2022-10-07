@@ -6,112 +6,78 @@
     "email": "xiang11@usf.edu",
     "phone": "+1 (813)5859481",
     "website": "https://xiangli-usf.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am studying for the Ph.D. degree in Geography and Environmental Science and Policy, University of South Florida",
+    "location": { "address": "NES 320, University of South Florida", "postalCode": "33620", "city": "Tampa", "countryCode": "USA", "region": "Florida" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" }
-        ]
+      { "network": "linkedin", "username": "XiangLi", "url": "https://www.linkedin.com/in/xiang-li-b09a94249/" },
+      { "network": "google", "username": "XiangLi", "url": "https://scholar.google.com/citations?user=8f8WetYAAAAJ&hl=en" },
+      { "network": "twitter", "username": "XiangLi-USF", "url": "https://twitter.com/XiangLiUSF" }
+    ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "GIS" },
+    { "name": "Big Data Analysis" },
+    { "name": "Disaster Resilience" },
+    { "name": "Remote Sensing" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "JavaScript", "C++", "Python", "Matlab" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Toolsets",
+      "keywords": [ "Google Earth Engine", "Jupyter Notebook", "ArcGIS", "ENVI"]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of South Florida",
+      "area": "Disaster Resilience",
+      "studyType": "Ph.D. (ongoing)",
+      "startDate": "2022",
+      "endDate": "Present"
+    },
+    {
+      "institution": "Northwest University, China",
+      "area": "Remote Sensing Big Data",
+      "studyType": "M.S.",
+      "startDate": "2018",
+      "endDate": "2021"
+    },
+    {
+      "institution": "Northwest University, China",
+      "area": "Physical Geography",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
+      "startDate": "2014",
+      "endDate": "2018"
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "University of South Florida",
+      "position": "Graduate Research Assistant",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
+      "startDate": "2022",
+      "endDate": "Present"
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
+      "company": "Northwest University, China",
+      "position": "Research Assistant",
+      "startDate": "2021",
+      "endDate": "2022"
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Fellowship",
+      "date": "2022",
+      "awarder": "University of South Florida"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
+      "title": "National Scholarship",
+      "date": "2018",
+      "awarder": "Northwest University, China"
     }
   ]
 }
