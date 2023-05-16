@@ -44,6 +44,9 @@
       "endDate": "2018"
     }
   ],
+  "publications":[
+    {"cite":"Li, X., Wang, N., & Wu, Y. (2022). Automated Glacier Snow Line Altitude Calculation Method Using Landsat Series Images in the Google Earth Engine Platform. Remote Sensing, 14(10), 2377."}
+  ],
   "work": [
     {
       "company": "University of South Florida",
@@ -70,15 +73,15 @@
       "date": "2018",
       "awarder": "Northwest University, China"
     }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "Python", "JavaScript", "C++", "Matlab" ]
+    },
+    {
+      "name": "Toolsets",
+      "keywords": [  "Jupyter Notebook", "Google Earth Engine", "ArcGIS Pro", "ENVI"]
+    }
   ]
 }
-"skills": [
-  {
-    "name": "Languages and Frameworks",
-    "keywords": [ "Python", "JavaScript", "C++", "Matlab" ]
-  },
-  {
-    "name": "Toolsets",
-    "keywords": [  "Jupyter Notebook", "Google Earth Engine", "ArcGIS Pro", "ENVI"]
-  }
-],
