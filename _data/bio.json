@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Xiang Li",
-    "label": "PhD Student",
+    "label": "PhD Student, Research Assistant",
     "picture": "https://pbs.twimg.com/profile_images/1564604820060864518/hhu4qZJL_400x400.jpg",
     "email": "xiang11@usf.edu",
     "phone": "+1 (727)4308657",
@@ -14,22 +14,13 @@
       { "network": "twitter", "username": "XiangLi-USF", "url": "https://twitter.com/XiangLiUSF" }
     ]
   },
-  "Research Area": [
+  "interests": [
     { "name": "Human Mobility" },
     { "name": "Disaster Resilience" },
     { "name": "Climate Change" },
     { "name": "GIS, Big Data & Remote Sensing of Environment" }
   ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "keywords": [ "Python", "JavaScript", "C++", "Matlab" ]
-    },
-    {
-      "name": "Toolsets",
-      "keywords": [  "Jupyter Notebook", "Google Earth Engine", "ArcGIS Pro", "ENVI"]
-    }
-  ],
+
   "education": [
     {
       "institution": "University of South Florida",
@@ -81,3 +72,13 @@
     }
   ]
 }
+"skills": [
+  {
+    "name": "Languages and Frameworks",
+    "keywords": [ "Python", "JavaScript", "C++", "Matlab" ]
+  },
+  {
+    "name": "Toolsets",
+    "keywords": [  "Jupyter Notebook", "Google Earth Engine", "ArcGIS Pro", "ENVI"]
+  }
+],
