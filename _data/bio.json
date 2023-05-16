@@ -33,23 +33,21 @@
   "education": [
     {
       "institution": "University of South Florida",
-      "major": "Geography and Environmental Science and Policy",
-      "area": "Disaster Resilience",
+      "area": "Geography and Environmental Science and Policy",
       "studyType": "Ph.D. (ongoing)",
       "startDate": "2022",
       "endDate": "Present"
     },
     {
       "institution": "Northwest University, China",
-      "major": "Cartography and Geoinformation",
-      "area": "Remote Sensing Big Data",
+      "area": "Cartography and Geoinformation",
       "studyType": "M.S.",
       "startDate": "2018",
       "endDate": "2021"
     },
     {
       "institution": "Northwest University, China",
-      "major": "Physical Geography",
+      "area": "Physical Geography",
       "studyType": "B.S.",
       "startDate": "2014",
       "endDate": "2018"
