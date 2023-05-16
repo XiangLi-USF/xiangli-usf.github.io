@@ -14,25 +14,26 @@
       { "network": "twitter", "username": "XiangLi-USF", "url": "https://twitter.com/XiangLiUSF" }
     ]
   },
-  "interests": [
-    { "name": "GIS" },
-    { "name": "Big Data Analysis" },
+  "Research Area": [
+    { "name": "Human Mobility" },
     { "name": "Disaster Resilience" },
-    { "name": "Remote Sensing" }
+    { "name": "Climate Change" },
+    { "name": "GIS, Big Data & Remote Sensing of Environment" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "JavaScript", "C++", "Python", "Matlab" ]
+      "keywords": [ "Python", "JavaScript", "C++", "Matlab" ]
     },
     {
       "name": "Toolsets",
-      "keywords": [ "Google Earth Engine", "Jupyter Notebook", "ArcGIS", "ENVI"]
+      "keywords": [  "Jupyter Notebook", "Google Earth Engine", "ArcGIS Pro", "ENVI"]
     }
   ],
   "education": [
     {
       "institution": "University of South Florida",
+      "major": "Geography and Environmental Science and Policy",
       "area": "Disaster Resilience",
       "studyType": "Ph.D. (ongoing)",
       "startDate": "2022",
@@ -40,6 +41,7 @@
     },
     {
       "institution": "Northwest University, China",
+      "major": "Cartography and Geoinformation",
       "area": "Remote Sensing Big Data",
       "studyType": "M.S.",
       "startDate": "2018",
@@ -47,13 +49,13 @@
     },
     {
       "institution": "Northwest University, China",
-      "area": "Physical Geography",
+      "major": "Physical Geography",
       "studyType": "B.S.",
       "startDate": "2014",
       "endDate": "2018"
     }
   ],
-  "work": [
+  "work": [g
     {
       "company": "University of South Florida",
       "position": "Graduate Research Assistant",
