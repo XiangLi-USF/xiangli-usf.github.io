@@ -44,9 +44,7 @@
       "endDate": "2018"
     }
   ],
-  "publications":[
-    {"cite":"Li, X., Wang, N., & Wu, Y. (2022). Automated Glacier Snow Line Altitude Calculation Method Using Landsat Series Images in the Google Earth Engine Platform. Remote Sensing, 14(10), 2377."}
-  ],
+
   "work": [
     {
       "company": "University of South Florida",
@@ -62,6 +60,7 @@
       "endDate": "2022"
     }
   ],
+
   "awards": [
     {
       "title": "Fellowship",
@@ -74,6 +73,7 @@
       "awarder": "Northwest University, China"
     }
   ],
+
   "skills": [
     {
       "name": "Languages and Frameworks",
@@ -83,5 +83,53 @@
       "name": "Toolsets",
       "keywords": [  "Jupyter Notebook", "Google Earth Engine", "ArcGIS Pro", "ENVI"]
     }
-  ]
+  ],
+
+  "publications": [
+  {
+    "name": "Beyond course work: expanding what's valued in computer science degree programs",
+    "type": "journal",
+    "author": "Seungoh Paek, Peter Leong, Philip M. Johnson, and Carleton A. Moore",
+    "publisher": "Journal of Applied Research in Higher Education",
+    "releaseDate": "September, 2020",
+    "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-08/20-08.pdf",
+    "summary": ""
+  },
+  {
+    "name": "Design, Implementation, and Evaluation of Open Power Quality",
+    "type": "journal",
+    "author": "Anthony J. Christe, Sergey Negrashov, and Philip M. Johnson",
+    "publisher": "Energies 13(15)",
+    "releaseDate": "August, 2020",
+    "website": "http://csdl.ics.hawaii.edu/techreports/2020/20-07/20-07.pdf",
+    "summary": ""
+  },
+  {
+    "name": "RadGrad: Removing the 'Extra' from Extracurricular to Improve Student Engagement, Retention, and Diversity",
+    "type": "conference",
+    "author": "Philip M. Johnson, Carleton A. Moore, Peter Leong, Seungoh Paek",
+    "publisher": "Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE 2020)",
+    "releaseDate": "March, 2020",
+    "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-04/19-04.pdf",
+    "summary": ""
+  },
+  {
+    "name": "Design and evaluation of an athletic approach to software engineering education",
+    "type": "journal",
+    "author": "Philip M. Johnson",
+    "publisher": "ACM Transactions on Computing Education",
+    "releaseDate": "August, 2019",
+    "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-03/19-03.pdf",
+    "summary": ""
+  },
+  {
+    "name": "A transient classification system implementation on an open source distributed power quality network",
+    "type": "conference",
+    "author": "Charles Dickens, Anthony J. Christe, and Philip M. Johnson",
+    "publisher": "Proceedings of the Ninth International Conference on Smart Grids, Green Communications and IT Energy-aware Technologies",
+    "releaseDate": "June, 2019",
+    "website": "http://csdl.ics.hawaii.edu/techreports/2019/19-02/19-02.pdf",
+    "summary": ""
+  }
+]
 }
