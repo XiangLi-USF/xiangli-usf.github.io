@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Xiang Li",
-    "label": "PhD Student, Research Assistant",
+    "label": "PhD Student, Graduate Assistant",
     "picture": "https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4",
     "email": "xiang11@usf.edu",
     "phone": "727-430-8657",
     "website": "https://xiangli.github.io",
     "summary": "I am studying for the Ph.D. degree in Geography and Environmental Science and Policy, <a href='https://www.usf.edu/arts-sciences/departments/geosciences/index.aspx'>University of South Florida</a>",
-    "location": {"address": "NES 320, University of South Florida", "postalCode": "33620", "city": "Tampa", "countryCode": "USA", "region": "Florida"  },
+    "location": {"address": "NES 107, University of South Florida", "postalCode": "33620", "city": "Tampa", "countryCode": "USA", "region": "Florida"  },
     "profiles": [
       { "network": "linkedin", "username": "XiangLi", "url": "https://www.linkedin.com/in/xiang-li-b09a94249/" },
       { "network": "google", "username": "XiangLi", "url": "https://scholar.google.com/citations?user=8f8WetYAAAAJ&hl=en" },
@@ -48,10 +48,18 @@
   "work": [
     {
       "company": "University of South Florida",
+      "position": "Graduate Teaching Assistant",
+      "website": "",
+      "startDate": "2023",
+      "endDate": "Present",
+      "summary": "Department of Geosciences"
+    },
+    {
+      "company": "University of South Florida",
       "position": "Graduate Research Assistant",
       "website": "",
       "startDate": "2022",
-      "endDate": "Present",
+      "endDate": "2023",
       "summary": "Department of Geosciences"
     },
     {
@@ -88,6 +96,13 @@
       "highlights": [
         "National Undergraduate Innovation and EntrepreneurshipProject, 2017-2018. Project leader, completed as a college student innovation national project. Set up an e-commerce company and operated in the local area.",
         "'Challenge Cup' National College Student CurricularAcademic Science and Technology Works Competition, 2016-2017. Project leader, won the third prize at the provincial level. Reconstructed 3D images using UAV and developed an APP to achieve the whole processingautomatically."
+      ]
+    },
+    {
+      "position": "Teaching",
+      "summary": "",
+      "highlights": [
+        "GEO3164 - Research Methods in Geography"
       ]
     },
     {
@@ -153,6 +168,15 @@
 
   "publications": [
     {
+      "name": "Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian",
+      "type": "journal",
+      "author": "Xiang Li, Yi Qiang and Guido Gerveno",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": ""
+    },
+    {
       "name": "Automated Glacier Snow Line Altitude Calculation Method Using Landsat Series Images in the Google Earth Engine Platform",
       "type": "journal",
       "author": "Xiang Li, Ninglian Wang and Yuwei Wu",
@@ -184,15 +208,6 @@
       "author": "Wei Zhang, Ninglian Wang, Xiang Li, Kai Liu",
       "publisher": "Mountain Research",
       "releaseDate": "June, 2019",
-      "summary": ""
-    },
-    {
-      "name": "Detection Water Supply Pipeline in Old Urban Communities by Intergrated Interior Work and Field Work",
-      "type": "journal",
-      "author": "Shifan Deng, Zhihua Zhang, Xiang Li, Qianxin Wu, Shiqiang Zhang",
-      "publisher": "Progress in Geophysics (in Chinese)",
-      "releaseDate": "May, 2019",
-      "website": "http://www.dsjyj.com.cn/dzdqs-data/pg/2019/5/PDF/1572242975057-346004543.pdf",
       "summary": ""
     }
   ]
