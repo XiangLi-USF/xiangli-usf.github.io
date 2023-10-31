@@ -1,0 +1,214 @@
+{
+  "basics": {
+    "name": "Xiang Li",
+    "label": "PhD Student, Graduate Assistant",
+    "picture": "https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4",
+    "email": "xiang11@usf.edu",
+    "phone": "727-430-8657",
+    "website": "xiangli-usf.github.io",
+    "summary": "I am studying for the Ph.D. degree in Geography and Environmental Science and Policy, <a href='https://www.usf.edu/arts-sciences/departments/geosciences/index.aspx'>University of South Florida</a>",
+    "location": {"address": "NES 107, University of South Florida", "postalCode": "33620", "city": "Tampa", "countryCode": "USA", "region": "Florida"  },
+    "profiles": [
+      { "network": "linkedin", "username": "XiangLi", "url": "https://www.linkedin.com/in/xiang-li-b09a94249/" },
+      { "network": "google", "username": "XiangLi", "url": "https://scholar.google.com/citations?user=8f8WetYAAAAJ&hl=en" },
+      { "network": "twitter", "username": "XiangLi-USF", "url": "https://twitter.com/XiangLiUSF" }
+    ]
+  },
+  "interests": [
+    { "name": "Human Mobility" },
+    { "name": "Disaster Resilience" },
+    { "name": "Climate Change" },
+    { "name": "GIS, Big Data & Remote Sensing of Environment" }
+  ],
+
+  "education": [
+    {
+      "institution": "University of South Florida",
+      "area": "Geography and Environmental Science and Policy",
+      "studyType": "Ph.D. (ongoing)",
+      "startDate": "2022",
+      "endDate": "Present"
+    },
+    {
+      "institution": "Northwest University, China",
+      "area": "Cartography and Geoinformation",
+      "studyType": "M.S.",
+      "startDate": "2018",
+      "endDate": "2021"
+    },
+    {
+      "institution": "Northwest University, China",
+      "area": "Physical Geography",
+      "studyType": "B.S.",
+      "startDate": "2014",
+      "endDate": "2018"
+    }
+  ],
+
+  "work": [
+    {
+      "company": "University of South Florida",
+      "position": "Graduate Teaching Assistant",
+      "website": "",
+      "startDate": "2023",
+      "endDate": "Present",
+      "summary": "Department of Geosciences"
+    },
+    {
+      "company": "University of South Florida",
+      "position": "Graduate Research Assistant",
+      "website": "",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Department of Geosciences"
+    },
+    {
+      "company": "Northwest University, China",
+      "position": "Research Assistant",
+      "startDate": "2021",
+      "endDate": "2022",
+      "summary": "<a href='https://sklee.nwu.edu.cn/index.htm'>Labs website</a>"
+    }
+  ],
+
+  "volunteer": [
+    {
+      "position": "Presentations",
+      "summary": "",
+      "highlights": [
+        "AAG Annual Meeting, Mar 2023. Intergrated multi-source geospatial data to model evacuation decisions and routes in Hurricane Ian.",
+        "Google Earth Engine (GEE) Workshop, Dec 2022. <a href='https://storymaps.arcgis.com/stories/ddc7d9513ca74fffa333dd4c0f1c8b62'>Storymaps link</a>",
+        "Northwest University Graduate Academic Activity Month Conference, Nov 2020. Second prize, Introduced a study of glacier changes on the Pamir Plateau.",
+        "Northwest University Graduate Academic Activity Month Conference, Nov 2019. Third prize, introduced a method for automatic classification of vegetation mapping by UAV."
+      ]
+    },
+    {
+      "position": "Professional Memberships",
+      "summary": "",
+      "highlights": [
+        "Association of American Geographers (AAG), 2022-Present",
+        "GIS Club at University of South Florida, Vice President, 2023-2024"
+      ]
+    },
+    {
+      "position": "Competitions",
+      "summary": "",
+      "highlights": [
+        "National Undergraduate Innovation and EntrepreneurshipProject, 2017-2018. Project leader, completed as a college student innovation national project. Set up an e-commerce company and operated in the local area.",
+        "'Challenge Cup' National College Student CurricularAcademic Science and Technology Works Competition, 2016-2017. Project leader, won the third prize at the provincial level. Reconstructed 3D images using UAV and developed an APP to achieve the whole processingautomatically."
+      ]
+    },
+    {
+      "position": "Teaching",
+      "summary": "",
+      "highlights": [
+        "GEO3164 - Research Methods in Geography"
+      ]
+    },
+    {
+      "position": "Others",
+      "summary": "",
+      "highlights": [
+        "Reviewer of International Journal of Applied Earth Observation and Geoinformation. "
+      ]
+    }
+  ],
+
+  "awards": [
+    {
+      "type": "award",
+      "title": "USF Graduate Fellowship",
+      "date": "2022",
+      "awarder": "University of South Florida",
+      "summary": ""
+    },
+    {
+      "type": "award",
+      "title": "Outstanding Master Graduates in Department of Geography and Environment, Northwest University, China",
+      "date": "2021",
+      "awarder": "Northwest University, China",
+      "summary": ""
+    },
+    {
+      "type": "award",
+      "title": "Outstanding Bachelor Graduates in Northwest University, China",
+      "date": "2018",
+      "awarder": "Northwest University, China",
+      "summary": ""
+    },
+    {
+      "type": "award",
+      "title": "National Scholarship, China",
+      "date": "2018",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "type": "project",
+      "title": "National Undergraduate Innovation and Entrepreneurship Project",
+      "date": "2016-2018",
+      "awarder": "",
+      "summary": "Project leader. Completed as a national project"
+    },
+    {
+      "type": "project",
+      "title": "'Challenge Cup' National College Student Business Plan Competition",
+      "date": "2017",
+      "awarder": "",
+      "summary": "Project Leader. Third Prize in Shaanxi Province and first prize in Northwest University"
+    },
+    {
+      "type": "project",
+      "title": "Students' 'Internet+' Innovation Entrepreneurship Competition.",
+      "date": "2016-2017",
+      "awarder": "",
+      "summary": "Project Leader. Third Prize in Shaanxi Province and second prize in Northwest University"
+    }
+  ],
+
+  "publications": [
+    {
+      "name": "Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian",
+      "type": "journal",
+      "author": "Xiang Li, Yi Qiang and Guido Gerveno",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "under review",
+      "summary": ""
+    },
+    {
+      "name": "Automated Glacier Snow Line Altitude Calculation Method Using Landsat Series Images in the Google Earth Engine Platform",
+      "type": "journal",
+      "author": "Xiang Li, Ninglian Wang and Yuwei Wu",
+      "publisher": "Remote Sensing",
+      "releaseDate": "May, 2022",
+      "website": "https://www.mdpi.com/2072-4292/14/10/2377",
+      "summary": ""
+    },
+    {
+      "name": "Summer surface temperature change of Greenland Ice Sheet from 2000 to 2020 and its effect on mass balance",
+      "type": "journal",
+      "author": "Zhenxiang Fang, Ninglian Wang, Xiang Li, Yujie Zhang, Xuenan Tai",
+      "publisher": "Journal of Glaciology and Geocryology",
+      "releaseDate": "August, 2022",
+      "website": "http://www.bcdt.ac.cn/CN/abstract/abstract4858.shtml",
+      "summary": ""
+    },
+    {
+      "name": "Experiment on 3D Reconstruction of Small Four-rotor UAV Series Images",
+      "type": "journal",
+      "author": "Xiang Li, Shiqiang Zhang, Qian Liang",
+      "publisher": "Remote Sensing Information",
+      "releaseDate": "Feb, 2020",
+      "summary": ""
+    },
+    {
+      "name": "Glacier Changes and Its Response to Climate Change in the Gilgit River Basin, Western Karakorum Mountains over the Past 20 Years",
+      "type": "journal",
+      "author": "Wei Zhang, Ninglian Wang, Xiang Li, Kai Liu",
+      "publisher": "Mountain Research",
+      "releaseDate": "June, 2019",
+      "summary": ""
+    }
+  ]
+}

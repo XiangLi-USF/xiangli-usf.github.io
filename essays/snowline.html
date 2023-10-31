@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Automated Glacier Snow Line Altitude Calculation Method Using Landsat Series Images in the Google Earth Engine Platform | Xiang Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Xiang Li | Professional Portfolio">
+    <meta property="og:url" content="https://xiangli-usf.github.io//essays/snowline.html">
+    <meta property="og:title" content="Automated Glacier Snow Line Altitude Calculation Method Using Landsat Series Images in the Google Earth Engine Platform | Xiang Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Automated Glacier Snow Line Altitude Calculation Method Using Landsat Series Images in the Google Earth Engine Platform | Xiang Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Xiang Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/cv.html">CV</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Automated Glacier Snow Line Altitude Calculation Method Using Landsat Series Images in the Google Earth Engine Platform</h1>
+  <span class="date">14 May 2022</span>
+  <hr>
+  <p><a href="https://www.mdpi.com/2072-4292/14/10/2377">Article Link</a></p>
+
+<ol>
+  <li><a href="#1-the-highlight-of-this-article">The highlight of this article</a></li>
+  <li><a href="#2-study-area-and-dataset">Study area and dataset</a></li>
+  <li><a href="#3-methods">Methods</a></li>
+  <li><a href="#4-results">Results</a></li>
+  <li><a href="#5-some-ideas-for-future-work">Some ideas for future work</a></li>
+</ol>
+
+<h2 id="1-the-highlight-of-this-article">1. The highlight of this article</h2>
+<ul>
+  <li>Create automated method to calculate Snow Line Altitude (SLA) on glaciers</li>
+  <li>Explore the Google Earth Engine (GEE) ability for achieving this goal</li>
+</ul>
+
+<h2 id="2-study-area-and-dataset">2. Study area and dataset</h2>
+<p><img class="img-" src="/img/SLA/Studyarea.jpg" /></p>
+
+<p>We used these 12 reference glaciers to calculate SLA in this article.
+The reason why we chose these glaciers is 1) each of them has more than 30 years of ongoing ELA measurements which is suitable for validation and 2) these locations are common and typical area of global mountain glaciers.</p>
+
+<p>For the dataset, we used:</p>
+<ul>
+  <li>Landsat Series Data: we selected all Landsat Surface Reflectance (SR) images from 1985 to 2020 in GEE.</li>
+  <li>NASADEM: It is an relatively accurate DEM.</li>
+  <li>Glacier Data: The outline shp and observation records.</li>
+</ul>
+
+<h2 id="3-methods">3. Methods</h2>
+<p><img class="img-" src="/img/SLA/Framework.png" /></p>
+
+<p><a href="https://code.earthengine.google.com/d9766624c4b3e7b0d84a59174ca7173a">Code Link</a>: It’s shown in GEE code editer, and the language is JavaScript.</p>
+
+<p>The processing can be divided into two loops.
+Each year is a variable that controls the loop period in the outer loop, and all of the images are filtered and selected for calculation in the inner loop.
+The algorithm can then determine the minimum SCR and maximum SLA.
+The annual glacier SCR and SLA can be calculated and validated using the AAR and ELA, respectively, with these two loops.</p>
+
+<h2 id="4-results">4. Results</h2>
+<p><img class="img-" src="/img/SLA/SLA-Trend.jpg" />
+<img class="img-" src="/img/SLA/SLA-Regression.jpg" /></p>
+
+<p>Except one glacier, others show the significantly correlates between calculation and observation.</p>
+
+<p><img class="img-" src="/img/SLA/one-except.jpg" /></p>
+
+<p>Why did this glacier get unsuitable result is that this glacier has been experiencing accelerated mass loss for the past 40 years, with apparent variations in its length, area, and surface shape.</p>
+
+<h2 id="5-some-ideas-for-future-work">5. Some ideas for future work</h2>
+<p>(if you have interests, we can cooperate)</p>
+<ul>
+  <li>Focus on some other RS dataset, because optical images are very easy to be affected by clouds and shadows.</li>
+  <li>Debris-covered glaciers should be considered. This type of glaciers have different shapes and parameters with other mountain glaciers.</li>
+  <li>If we can solve these problem, we could measure global mountain glaciers SLA changes and create SLA tables and datasets for each of glaciers, which should be a significantly innovation.</li>
+</ul>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
