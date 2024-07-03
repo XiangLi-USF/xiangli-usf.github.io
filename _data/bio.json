@@ -76,6 +76,7 @@
       "position": "Presentations",
       "summary": "",
       "highlights": [
+        "AAG Annual Meeting, April 2024. Unveiling Spatio-Temporal Changes of Human Migration and Networks in Natural Disasters and Climate Change.",
         "AAG Annual Meeting, Mar 2023. Intergrated multi-source geospatial data to model evacuation decisions and routes in Hurricane Ian.",
         "Google Earth Engine (GEE) Workshop, Dec 2022. <a href='https://storymaps.arcgis.com/stories/ddc7d9513ca74fffa333dd4c0f1c8b62'>Storymaps link</a>",
         "Northwest University Graduate Academic Activity Month Conference, Nov 2020. Second prize, Introduced a study of glacier changes on the Pamir Plateau.",
@@ -109,7 +110,7 @@
       "position": "Others",
       "summary": "",
       "highlights": [
-        "Reviewer of International Journal of Applied Earth Observation and Geoinformation. "
+        "Reviewer of International Journal of Applied Earth Observation and Geoinformation, Computational Urban Science and Remote Sensing. "
       ]
     }
   ],
@@ -171,9 +172,9 @@
       "name": "Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian",
       "type": "journal",
       "author": "Xiang Li, Yi Qiang and Guido Gerveno",
-      "publisher": "",
-      "releaseDate": "",
-      "website": "under review",
+      "publisher": "Annals of GIS",
+      "releaseDate": "Apr, 2024",
+      "website": "https://doi.org/10.1080/19475683.2024.2341703",
       "summary": ""
     },
     {
