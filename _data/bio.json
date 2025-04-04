@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Xiang Li",
-    "label": "PhD Student, Graduate Assistant",
+    "label": "Ph.D. Candidate, Graduate Assistant",
     "picture": "https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4",
     "email": "xiang11@usf.edu",
     "phone": "727-430-8657",
@@ -112,12 +112,19 @@
       "position": "Others",
       "summary": "",
       "highlights": [
-        "Reviewer of International Journal of Applied Earth Observation and Geoinformation, Computational Urban Science and Remote Sensing. "
+        "Reviewer of International Journal of Applied Earth Observation and Geoinformation, Computational Urban Science and Remote Sensing, Annals of GIS. "
       ]
     }
   ],
 
   "awards": [
+    {
+      "type": "award",
+      "title": "USF Tampa Conference Presentation Grant (CPGP)",
+      "date": "2024",
+      "awarder": "University of South Florida",
+      "summary": ""
+    },
     {
       "type": "award",
       "title": "USF Graduate Fellowship",
