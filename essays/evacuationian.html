@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian (Under Review) | Xiang Li | Professional Portfolio">
+    <meta name="title" content="Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian | Xiang Li | Professional Portfolio">
     <meta name="description" content="">
     <meta name="image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Xiang Li | Professional Portfolio">
     <meta property="og:url" content="https://xiangli-usf.github.io//essays/evacuationian.html">
-    <meta property="og:title" content="Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian (Under Review) | Xiang Li | Professional Portfolio">
+    <meta property="og:title" content="Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian | Xiang Li | Professional Portfolio">
     <meta property="og:description" content="">
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -22,7 +22,7 @@
     </script>
     
 
-    <title>Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian (Under Review) | Xiang Li | Professional Portfolio</title>
+    <title>Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian | Xiang Li | Professional Portfolio</title>
   </head>
   <body>
   <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
@@ -30,7 +30,7 @@
     <a class="navbar-brand" href="/">Xiang Li</a>
     <div class="ms-auto">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#program">Projects</a>
         <a class="nav-link" href="/#essays">Essays</a>
         <a class="nav-link" href="/cv.html">CV</a>
       </ul>
@@ -39,10 +39,64 @@
 </header>
 
 <div class="container py-4">
-  <h1 class="display-4">Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian (Under Review)</h1>
-  <span class="date"></span>
+  <h1 class="display-4">Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian</h1>
+  <span class="date">14 Apr 2024</span>
   <hr>
-  <p>This manuscript is under review, and I will post more details after it is published.</p>
+  <p><a href="https://doi.org/10.1080/19475683.2024.2341703">Article Link</a></p>
+
+<ol>
+  <li><a href="#1-the-highlight-of-this-article">The highlight of this article</a></li>
+  <li><a href="#2-study-area-and-dataset">Study area and dataset</a></li>
+  <li><a href="#3-methods">Methods</a></li>
+  <li><a href="#4-results">Results</a></li>
+  <li><a href="#5-some-ideas-for-future-work">Some ideas for future work</a></li>
+</ol>
+
+<h2 id="1-the-highlight-of-this-article">1. The highlight of this article</h2>
+<ul>
+  <li>Generate a framework to use human mobility data to detect hurricane evacuation patterns</li>
+  <li>Examine the spatiotemporal patterns and compliance of evacuation orders during Hurricane Ian</li>
+</ul>
+
+<h2 id="2-study-area-and-dataset">2. Study area and dataset</h2>
+<p><img class="img-" src="/img/evacuation/studyarea.jpg" /></p>
+
+<p>We detected the evacuation patterns in census block group and county level originating from Florida.</p>
+
+<p>For the dataset, we used:</p>
+<ul>
+  <li>SafeGraph Weekly Pattern Data: SafeGraph collects the home CBGs of users by analysing users’ most common night-time locations during the last six weeks. By linking visited POIs with their originating CBGs, we can analyse the number and origin of unique visitors to each POI throughout a week.</li>
+  <li>Census Data: Socio-economic data in zip codes and block groups are acquired from the Census Bureau</li>
+  <li>Evacuation Zones Data: The evacuation zones are acquired from the Florida Division of Emergency Management</li>
+</ul>
+
+<h2 id="3-methods">3. Methods</h2>
+<p><img class="img-" src="/img/evacuation/framework.png" /></p>
+
+<p>The analysis of evacuation patterns during Hurricane Ian employs a structured analytical workflow designed to capture and interpret large-scale human mobility data. The workflow begins by defining the study period, which is divided into three distinct phases: the pre-hurricane phases (3 weeks before the landfall), in-hurricane (the week right after the landfall), and post-hurricane (the following week). During these periods, population movements are analyzed both within Florida and beyond, with a particular focus on the areas most affected by the hurricane.</p>
+
+<ul>
+  <li>Spatial analysis of outflows, origins, and destinations
+First, we created flow maps to visualize net population flows in O-D pairs during the three phases of the hurricane.
+Second, hot spot analysis was conducted to detect popular destinations for the evacuation. Specifically, we calculated the change ratios of visitors from Florida during the in- and post-hurricane phases in comparison to the baseline in all U.S counties.
+Third, we analysed the origins of the O-D flows to reveal the spatial variation of the compliance with the evacuation orders in the affected areas. Specifically, we calculated the percent changes of population outflows during the in- and post-hurricane phases compared to the baseline in the twelve counties under mandatory evacuation orders in the hurricane.</li>
+</ul>
+
+<h2 id="4-results">4. Results</h2>
+<p><img class="img-" src="/img/evacuation/netflow.jpg" /></p>
+
+<p>The study revealed distinct spatial patterns of evacuation during Hurricane Ian. Compared to the baseline (pre-hurricane phase), population outflows increased significantly from Florida’s west coast, particularly the Tampa Bay and Fort Myers areas, which were in the direct path of the hurricane.</p>
+
+<p><img class="img-" src="/img/evacuation/hotspot.jpg" /></p>
+
+<p>Using hot spot analysis, we detected local clusters of high (hot spots) and low (cold spots) percent changes. Most of travelers chose to move within Florida during the hurricane. In addition to counties within Florida, hot spots of Florida visitors tend to spread toward the northwest neighbor states including Alabama, Georgia, Mississippi, and even as far as Louisiana and Texas.</p>
+
+<h2 id="5-discussion">5. Discussion</h2>
+<p>(if you have interests, we can cooperate)</p>
+<ul>
+  <li>Evacuation patterns differences in different disasters.</li>
+  <li>Effect of evacuation order.</li>
+</ul>
 
 </div>
 
