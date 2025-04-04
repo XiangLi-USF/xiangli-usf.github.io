@@ -48,7 +48,7 @@
   "work": [
     {
       "company": "University of South Florida",
-      "position": "Graduate Teaching Assistant",
+      "position": "Graduate Teaching Assistant (GEO3164)",
       "website": "",
       "startDate": "2023",
       "endDate": "Present",
@@ -76,8 +76,9 @@
       "position": "Presentations",
       "summary": "",
       "highlights": [
+        "AAG Annual Meeting, March 2025. Associations of Human Migration and Natural Disasters in the United States from 2000 to 2020.",
         "AAG Annual Meeting, April 2024. Unveiling Spatio-Temporal Changes of Human Migration and Networks in Natural Disasters and Climate Change.",
-        "AAG Annual Meeting, Mar 2023. Intergrated multi-source geospatial data to model evacuation decisions and routes in Hurricane Ian.",
+        "AAG Annual Meeting, March 2023. Intergrated multi-source geospatial data to model evacuation decisions and routes in Hurricane Ian.",
         "Google Earth Engine (GEE) Workshop, Dec 2022. <a href='https://storymaps.arcgis.com/stories/ddc7d9513ca74fffa333dd4c0f1c8b62'>Storymaps link</a>",
         "Northwest University Graduate Academic Activity Month Conference, Nov 2020. Second prize, Introduced a study of glacier changes on the Pamir Plateau.",
         "Northwest University Graduate Academic Activity Month Conference, Nov 2019. Third prize, introduced a method for automatic classification of vegetation mapping by UAV."
@@ -88,7 +89,8 @@
       "summary": "",
       "highlights": [
         "Association of American Geographers (AAG), 2022-Present",
-        "GIS Club at University of South Florida, Vice President, 2023-2024"
+        "GIS Club at University of South Florida, Vice President, 2023-2024",
+        "GIS Club at University of South Florida, Vice President, 2024-Present"
       ]
     },
     {
