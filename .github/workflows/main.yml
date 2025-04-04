@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: GitHub Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name: Bundler Cache
         uses: actions/cache@v4
         with:
@@ -20,7 +20,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - name: validate-bio-json-file
-        uses: limitusus/json-syntax-check@v4
+        uses: limitusus/json-syntax-check@v2
         with:
           pattern: "\\bio.json$"
       - name: Build & Deploy to GitHub Pages
