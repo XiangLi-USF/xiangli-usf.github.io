@@ -33,7 +33,7 @@ For the dataset, we used:
 * Evacuation Zones Data: The evacuation zones are acquired from the Florida Division of Emergency Management
 
 ## 3. Methods
-<img class="img-" src="{{ site.baseurl }}/img/evacuation/framework.png">
+<img class="img-" src="{{ site.baseurl }}/img/evacuation/framework.jpg">
 
 The analysis of evacuation patterns during Hurricane Ian employs a structured analytical workflow designed to capture and interpret large-scale human mobility data. The workflow begins by defining the study period, which is divided into three distinct phases: the pre-hurricane phases (3 weeks before the landfall), in-hurricane (the week right after the landfall), and post-hurricane (the following week). During these periods, population movements are analyzed both within Florida and beyond, with a particular focus on the areas most affected by the hurricane.
 
