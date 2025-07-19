@@ -5,12 +5,16 @@ title: "Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian
 # All dates must be YYYY-MM-DD format!
 date: 2024-04-14
 published: true
+
 labels:
   - SafeGraph Weekly Pattern
   - Evacuation pattern in Hurricane Ian
 ---
 
+Authors: Xiang Li, Yi Qiang, Guido Cervone
+
 [Article Link](https://doi.org/10.1080/19475683.2024.2341703)
+
 
 1. [The highlight of this article](#1-the-highlight-of-this-article)
 2. [Study area and dataset](#2-study-area-and-dataset)

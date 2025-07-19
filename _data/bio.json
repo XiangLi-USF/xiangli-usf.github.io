@@ -48,11 +48,21 @@
   "work": [
     {
       "company": "University of South Florida",
-      "position": "Graduate Teaching Assistant (GEO3164)",
+      "position": "Graduate Teaching Associate",
+      "website": "",
+      "startDate": "2025",
+      "endDate": "Present",
+      "summary": "Instructor of Courses:
+                 EVR 4921, GEO 4933, GEO 3164"
+    },
+    {
+      "company": "University of South Florida",
+      "position": "Graduate Teaching Assistant",
       "website": "",
       "startDate": "2023",
-      "endDate": "Present",
-      "summary": "Department of Geosciences"
+      "endDate": "2025",
+      "summary": "Teaching Assistant of Course:
+      GEO 3164"
     },
     {
       "company": "University of South Florida",
@@ -102,10 +112,12 @@
       ]
     },
     {
-      "position": "Teaching",
+      "position": "Instructor of Record",
       "summary": "",
       "highlights": [
-        "GEO3164 - Research Methods in Geography"
+        "GEO 3164 - Research Methods in Geography",
+        "GEO 4933 - Geography Colloquium",
+        "EVR 4921 - Environment Science and Policy Seminar"
       ]
     },
     {
@@ -177,6 +189,33 @@
   ],
 
   "publications": [
+    {
+      "name": "Natural Disasters and Urban Human Mobility",
+      "type": "book",
+      "author": "Xiang Li, Yi Qiang",
+      "publisher": "CRC Press",
+      "releaseDate": "Jun, 2025",
+      "website": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003503262-7/natural-disasters-urban-human-mobility-xiang-li-yi-qiang",
+      "summary": ""
+    },
+    {
+      "name": "A SAR-based flood mapping approach: application of SAR-SIFT registration and modified DeepLabV3 segmentation in flood hazard assessment",
+      "type": "journal",
+      "author": "Zhuoyu Zhang, Jiaqi Xiong, Xiang Li, Yu Li, Junrong Liu",
+      "publisher": "Geocarto International",
+      "releaseDate": "Jun, 2025",
+      "website": "https://doi.org/10.1080/10106049.2025.2512188",
+      "summary": ""
+    },
+    {
+      "name": "Spatial Pattern and Socioeconomic Factors of 2022 Monkeypox Outbreak in the United States",
+      "type": "journal",
+      "author": "Linbo Han, Yi Qiang, Cong Ma, Xiang Li, Zakaria Salim, Radhika Bhandari, Kamal A Alsharif, He Jin",
+      "publisher": "The Professional Geographer",
+      "releaseDate": "Mar, 2025",
+      "website": "https://doi.org/10.1080/00330124.2025.2474445",
+      "summary": ""
+    },
     {
       "name": "Using Human Mobility Data to Detect Evacuation Patterns in Hurricane Ian",
       "type": "journal",
