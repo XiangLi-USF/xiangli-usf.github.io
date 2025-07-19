@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="A SAR-based flood mapping approach: application of SAR-SIFT registration and modified DeepLabV3 segmentation in flood hazard assessment | Xiang Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Xiang Li | Professional Portfolio">
+    <meta property="og:url" content="https://xiangli-usf.github.io//essays/floodsar2025.html">
+    <meta property="og:title" content="A SAR-based flood mapping approach: application of SAR-SIFT registration and modified DeepLabV3 segmentation in flood hazard assessment | Xiang Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>A SAR-based flood mapping approach: application of SAR-SIFT registration and modified DeepLabV3 segmentation in flood hazard assessment | Xiang Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Xiang Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#program">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/cv.html">CV</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">A SAR-based flood mapping approach: application of SAR-SIFT registration and modified DeepLabV3 segmentation in flood hazard assessment</h1>
+  <span class="date">17 Jun 2025</span>
+  <hr>
+  <p>Zhang, Z., Xiong, J., Li, X., Li, Y., &amp; Liu, J. (2025). A SAR-based flood mapping approach: application of SAR-SIFT registration and modified DeepLabV3 segmentation in flood hazard assessment. Geocarto International, 40(1), 2512188.</p>
+
+<p><a href="https://doi.org/10.1080/10106049.2025.2512188">Article Link</a></p>
+
+<ol>
+  <li><a href="#1-the-highlight-of-this-article">The highlight of this article</a></li>
+  <li><a href="#2-study-area-and-dataset">Study area and dataset</a></li>
+  <li><a href="#3-methods">Methods</a></li>
+  <li><a href="#4-results">Results</a></li>
+</ol>
+
+<h2 id="1-the-highlight-of-this-article">1. The highlight of this article</h2>
+<ul>
+  <li>
+    <p>Proposes an automated, high-resolution flood mapping framework using SAR satellite imagery, SIFT feature-based registration, and a modified DeepLabV3+ deep learning segmentation model.</p>
+  </li>
+  <li>
+    <p>Demonstrates that the model is effective in detecting flood extents even in complex urban and vegetation-covered environments, outperforming traditional unsupervised methods.</p>
+  </li>
+  <li>
+    <p>The approach provides timely and accurate flood hazard assessment that can assist in emergency response and planning.</p>
+  </li>
+</ul>
+
+<h2 id="2-study-area-and-dataset">2. Study area and dataset</h2>
+<p><img class="img-" src="/img/floodsar2025/floodsar_sa.jpg" style="width: 60%; height: auto;" /></p>
+
+<p>Study Area: Hainan Province, China, which experienced severe flooding from August 29 to September 1, 2022.</p>
+
+<p>Focused on areas affected by Typhoon Ma-on, including both urban and agricultural zones.</p>
+
+<p>Data Sources:</p>
+
+<p>Sentinel-1 SAR imagery: Dual-temporal VV polarization (10 m resolution), pre-flood (August 23) and post-flood (August 31) scenes, sourced from ESA Copernicus Open Access Hub.</p>
+
+<p>Sentinel-2 optical imagery: Used for reference and labeling.</p>
+
+<p>Land cover data from the Chinese Academy of Sciences (CLCD).</p>
+
+<p>Manual labeling of flooded areas based on Sentinel-2 images and field knowledge, used to create ground truth masks.</p>
+
+<h2 id="3-methods">3. Methods</h2>
+<p><img class="img-" src="/img/floodsar2025/floodsar_framework.jpg" style="width: 60%; height: auto;" /></p>
+
+<p>The proposed SAR-based flood mapping framework includes:</p>
+
+<ol>
+  <li>SAR-SIFT Image Registration:</li>
+</ol>
+
+<p>SAR-SIFT algorithm used for co-registration of multi-temporal SAR images.</p>
+
+<p>Improves alignment accuracy and maintains local details better than conventional correlation-based approaches.</p>
+
+<ol>
+  <li>Modified DeepLabV3+ Model:</li>
+</ol>
+
+<p>DeepLabV3+ with a ResNet-101 backbone is modified to handle binary segmentation of flooded vs. non-flooded areas.</p>
+
+<p>Input: dual-temporal SAR image composites (pre-flood + post-flood).</p>
+
+<p>Ground truth masks are generated from manual interpretation of Sentinel-2 and FEMA data.</p>
+
+<p>Model trained with data augmentation and evaluated using precision, recall, F1-score, and IOU metrics.</p>
+
+<ol>
+  <li>Comparison with Unsupervised Methods:</li>
+</ol>
+
+<p>Benchmarked against change detection techniques (e.g., logarithmic ratio, histogram thresholding).</p>
+
+<p>Also compared to raw DeepLabV3+ without SAR-SIFT registration.</p>
+
+<h2 id="4-results">4. Results</h2>
+
+<p>SAR-SIFT Performance:</p>
+
+<p>Achieved better co-registration accuracy than OpenCV and ENVI methods, with lower RMSE and misalignment.</p>
+
+<p>Flood Segmentation Accuracy:</p>
+
+<p>The modified DeepLabV3+ model with SAR-SIFT registered inputs achieved:</p>
+
+<p>F1-score: 0.853, IOU: 0.743</p>
+
+<p>Outperformed unsupervised methods (e.g., F1-score of histogram thresholding ~0.4).</p>
+
+<p>Visual Accuracy:</p>
+
+<p>The deep learning-based method produced flood maps that aligned better with FEMA boundaries, including in urban areas and complex terrains.</p>
+
+<p>Generalizability:</p>
+
+<p>The workflow is modular and scalable to other regions and flood events using SAR imagery.</p>
+
+<p><img class="img-" src="/img/floodsar2025/floodsar_trainning.jpg" style="width: 60%; height: auto;" /></p>
+
+<p><img class="img-" src="/img/floodsar2025/floodsar_comp.jpg" style="width: 60%; height: auto;" /></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
