@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Natural disasters and human migration in the United States: Insights from automated machine learning and explainable AI | Xiang Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Xiang Li | Professional Portfolio">
+    <meta property="og:url" content="https://xiangli-usf.github.io//essays/migration-ai-2026.html">
+    <meta property="og:title" content="Natural disasters and human migration in the United States: Insights from automated machine learning and explainable AI | Xiang Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Natural disasters and human migration in the United States: Insights from automated machine learning and explainable AI | Xiang Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Xiang Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/cv.html">CV</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Natural disasters and human migration in the United States: Insights from automated machine learning and explainable AI</h1>
+  <span class="date">29 Apr 2026</span>
+  <hr>
+  <p>Li, X., Qiang, Y., Huang, X., Zou, L., &amp; Cai, H. (2026). Natural disasters and human migration in the United States: Insights from automated machine learning and explainable AI. <em>Journal of Environmental Management</em>, 406, 129796.</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0301479726012569">Article Link</a></p>
+
+<ol>
+  <li><a href="#1-the-highlight-of-this-article">The highlight of this article</a></li>
+  <li><a href="#2-research-question-and-data">Research question and data</a></li>
+  <li><a href="#3-methods">Methods</a></li>
+  <li><a href="#4-key-findings">Key findings</a></li>
+  <li><a href="#5-contribution-and-innovation">Contribution and innovation</a></li>
+</ol>
+
+<h2 id="1-the-highlight-of-this-article">1. The highlight of this article</h2>
+
+<p>This article asks a deceptively simple question: how do repeated natural disasters shape where people move within the United States? Instead of treating disasters as a single shock, the study compares four major hazard types - floods, hurricanes, wildfires, and tornadoes - and examines how disaster frequency, damage, injuries, and fatalities relate to county-level net migration rates from 2000 to 2020.</p>
+
+<p>The key message is that disaster-related migration is not a simple “hazard causes people to leave” process. Counties with higher disaster impacts often show lower average net migration rates, but the association varies by disaster type, intensity, timing, and local socioeconomic context. The study therefore combines statistical modeling with automated machine learning and explainable AI to capture nonlinear and spatially heterogeneous patterns.</p>
+
+<h2 id="2-research-question-and-data">2. Research question and data</h2>
+
+<p>The study focuses on the contiguous United States and links county-level migration outcomes with four major disaster types. It uses net migration rate (NMR) as the main migration outcome and combines disaster variables with socioeconomic and environmental controls. This design makes it possible to compare disaster effects with more traditional migration drivers such as income, housing conditions, population density, and natural amenities.</p>
+
+<p><img class="img-fluid" src="/img/migration2026/migration_fig1_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 1 maps disaster frequency and per-capita property damage. The bivariate maps show why the analysis needs to be hazard-specific: hurricanes concentrate along the Gulf and Atlantic coasts, floods are more widespread, wildfires cluster strongly in the western United States, and tornado impacts are concentrated in the central and southeastern United States.</p>
+
+<p><img class="img-fluid" src="/img/migration2026/migration_fig2_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 2 shows the average net migration rate across counties from 2000 to 2020. The map provides the demographic baseline against which disaster impacts are interpreted. Some high-risk regions still experienced population gains, which is one reason the article argues against a simplistic disaster-migration narrative.</p>
+
+<h2 id="3-methods">3. Methods</h2>
+
+<p>The paper uses three complementary analytical layers.</p>
+
+<p>First, time-series comparisons group counties into high-, moderate-, and low-impact categories for each disaster type. This reveals how migration rates vary over time as disaster-related property damage changes.</p>
+
+<p>Second, Generalized Additive Model (GAM) panel regressions estimate immediate and one-year lagged relationships between disaster variables and NMR. GAM is useful here because the association between disaster exposure and migration may be nonlinear. A low level of disaster frequency may not have the same effect as repeated or cumulative exposure.</p>
+
+<p>Third, an automated machine learning framework evaluates long-term migration prediction. The models are then interpreted with SHapley Additive exPlanations (SHAP), which helps identify which variables matter most and where disaster variables contribute to the prediction.</p>
+
+<h2 id="4-key-findings">4. Key findings</h2>
+
+<p><img class="img-fluid" src="/img/migration2026/migration_fig3_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 3 shows that high-impact counties generally have lower NMR than moderate- and low-impact counties, although the timing and magnitude differ by hazard. Floods and tornadoes show especially clear contrasts among impact groups. Hurricane-related migration patterns are more event-sensitive, with visible changes around major years such as 2005 and 2017.</p>
+
+<p><img class="img-fluid" src="/img/migration2026/migration_fig4_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 4 highlights the nonlinear relationships captured by GAM. Some disaster variables show threshold-like behavior: migration responses may remain weak at lower levels of exposure but become more negative once disaster frequency or damage passes certain levels. This is important because linear models can miss tipping-point-like effects.</p>
+
+<p><img class="img-fluid" src="/img/migration2026/migration_fig5_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 5 ranks the top predictors in the AutoML models. Socioeconomic variables remain dominant across hazard types, especially population density, income-housing relationships, vehicle access, and demographic characteristics. Disaster variables still appear among influential predictors, particularly for hurricanes, wildfires, and tornadoes. This supports the interpretation that disasters interact with socioeconomic conditions rather than replacing them as migration drivers.</p>
+
+<p><img class="img-fluid" src="/img/migration2026/migration_fig6_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 6 maps the spatial distribution of SHAP values for disaster variables. The maps show that the contribution of disaster exposure is geographically uneven. Flood-related contributions are visible in parts of the West, Midwest, and eastern United States; hurricane contributions are concentrated along coastal regions; wildfire contributions are strongest in the West; and tornado contributions appear across the central and southeastern United States.</p>
+
+<h2 id="5-contribution-and-innovation">5. Contribution and innovation</h2>
+
+<p>This article contributes to climate migration and disaster resilience research in three ways.</p>
+
+<p>First, it reframes disaster-related migration as a multi-factor process. The results show that disasters matter, but they work through local economic structure, housing conditions, vulnerability, and regional attractiveness. This helps explain why some hazard-prone areas continue to attract migrants.</p>
+
+<p>Second, it combines short-term statistical analysis with long-term machine learning prediction. GAM captures nonlinear and lagged relationships, while AutoML evaluates predictive performance across multiple model families.</p>
+
+<p>Third, it uses SHAP to make machine learning results interpretable. Instead of only reporting prediction accuracy, the study shows which variables drive model outputs and where disaster variables contribute spatially. This makes the analysis more useful for resilience planning, land-use policy, and targeted adaptation.</p>
+
+<p>Overall, the article suggests that climate migration should be understood less as direct displacement from hazards alone and more as the outcome of interacting environmental shocks, socioeconomic opportunity, and local adaptive capacity.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

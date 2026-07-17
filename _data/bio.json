@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Xiang Li",
-    "label": "Ph.D. Candidate, Graduate Assistant",
+    "label": "Ph.D.",
     "picture": "https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4",
     "email": "xiang11@usf.edu",
     "phone": "727-430-8657",
     "website": "xiangli-usf.github.io",
-    "summary": "I am studying for the Ph.D. degree in Geography and Environmental Science and Policy, <a href='https://www.usf.edu/arts-sciences/departments/geosciences/index.aspx'>University of South Florida</a>",
+    "summary": "I earned my PhD degree in Geography and Environmental Science and Policy from <a href='https://www.usf.edu/arts-sciences/departments/geosciences/index.aspx'>University of South Florida</a>",
     "location": {"address": "NES 107, University of South Florida", "postalCode": "33620", "city": "Tampa", "countryCode": "USA", "region": "Florida"  },
     "profiles": [
       { "network": "linkedin", "username": "XiangLi", "url": "https://www.linkedin.com/in/xiang-li-b09a94249/" },
@@ -18,6 +18,7 @@
     { "name": "Human Mobility" },
     { "name": "Disaster Resilience" },
     { "name": "Climate Change" },
+    { "name": "GeoAI" },
     { "name": "GIS, Big Data & Remote Sensing of Environment" }
   ],
 
@@ -25,9 +26,9 @@
     {
       "institution": "University of South Florida",
       "area": "Geography and Environmental Science and Policy",
-      "studyType": "Ph.D. (ongoing)",
+      "studyType": "Ph.D.",
       "startDate": "2022",
-      "endDate": "Present"
+      "endDate": "2026"
     },
     {
       "institution": "Northwest University, China",
@@ -51,7 +52,7 @@
       "position": "Graduate Teaching Associate",
       "website": "",
       "startDate": "2025",
-      "endDate": "Present",
+      "endDate": "2026",
       "summary": "Instructor of Courses:
                  EVR 4921, GEO 4933, GEO 3164"
     },
@@ -86,6 +87,7 @@
       "position": "Presentations",
       "summary": "",
       "highlights": [
+        "AAG Annual Meeting, March 2026. Who Moves After Disasters? Selective Migration Evidence from U.S. County to County Flows.",
         "AAG Annual Meeting, March 2025. Associations of Human Migration and Natural Disasters in the United States from 2000 to 2020.",
         "AAG Annual Meeting, April 2024. Unveiling Spatio-Temporal Changes of Human Migration and Networks in Natural Disasters and Climate Change.",
         "AAG Annual Meeting, March 2023. Intergrated multi-source geospatial data to model evacuation decisions and routes in Hurricane Ian.",
@@ -98,9 +100,10 @@
       "position": "Professional Memberships",
       "summary": "",
       "highlights": [
+        "Cartography and Geographic Information Society (CaGIS), 2026-Present",
         "Association of American Geographers (AAG), 2022-Present",
-        "GIS Club at University of South Florida, Vice President, 2023-2024",
-        "GIS Club at University of South Florida, Vice President, 2024-Present"
+        "GIS Club at University of South Florida, President, 2024-2026",
+        "GIS Club at University of South Florida, Vice President, 2023-2024"
       ]
     },
     {
@@ -124,7 +127,11 @@
       "position": "Others",
       "summary": "",
       "highlights": [
-        "Reviewer of International Journal of Applied Earth Observation and Geoinformation, Computational Urban Science and Remote Sensing, Annals of GIS. "
+        "Reviewer of International Journal of Applied Earth Observation and Geoinformation",
+        "Reviewer of Computational Urban Science",
+        "Reviewer of Tourism Geographies",
+        "Reviewer of Remote Sensing",
+        "Reviewer of Annals of GIS"
       ]
     }
   ],
@@ -132,8 +139,22 @@
   "awards": [
     {
       "type": "award",
+      "title": "CaGIS Student Research Scholarships",
+      "date": "2026",
+      "awarder": "CaGIS",
+      "summary": ""
+    },
+    {
+      "type": "award",
+      "title": "USF Dissertation Completion Fellowship",
+      "date": "2026",
+      "awarder": "University of South Florida",
+      "summary": ""
+    },
+    {
+      "type": "award",
       "title": "USF Tampa Conference Presentation Grant (CPGP)",
-      "date": "2024",
+      "date": "2024, 2025, 2026",
       "awarder": "University of South Florida",
       "summary": ""
     },
@@ -189,6 +210,24 @@
   ],
 
   "publications": [
+    {
+      "name": "Pervasive seasonal divergence in lagged responses of vegetation growth to compound drought-heat stress on the Tibetan Plateau",
+      "type": "journal",
+      "author": "Wenjuan Li, Xiuchen Wu, Zekai Meng, Xiang Li, Wenqi Song, Peng Zhao",
+      "publisher": "Frontiers in Plant Science",
+      "releaseDate": "July, 2026",
+      "website": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1879954/full",
+      "summary": ""
+    },
+    {
+      "name": "Natural disasters and human migration in the United States: Insights from automated machine learning and explainable AI",
+      "type": "journal",
+      "author": "Xiang Li, Yi Qiang, Xiao Huang, Lei Zou, Heng Cai",
+      "publisher": "Journal of Environmental Management",
+      "releaseDate": "April, 2026",
+      "website": "https://www.sciencedirect.com/science/article/abs/pii/S0301479726012569",
+      "summary": ""
+    },
     {
       "name": "Natural Disasters and Urban Human Mobility",
       "type": "book",

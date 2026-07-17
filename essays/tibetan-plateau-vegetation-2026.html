@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Pervasive seasonal divergence in lagged responses of vegetation growth to compound drought-heat stress on the Tibetan Plateau | Xiang Li | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Xiang Li | Professional Portfolio">
+    <meta property="og:url" content="https://xiangli-usf.github.io//essays/tibetan-plateau-vegetation-2026.html">
+    <meta property="og:title" content="Pervasive seasonal divergence in lagged responses of vegetation growth to compound drought-heat stress on the Tibetan Plateau | Xiang Li | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Pervasive seasonal divergence in lagged responses of vegetation growth to compound drought-heat stress on the Tibetan Plateau | Xiang Li | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Xiang Li</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/cv.html">CV</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Pervasive seasonal divergence in lagged responses of vegetation growth to compound drought-heat stress on the Tibetan Plateau</h1>
+  <span class="date">13 Jul 2026</span>
+  <hr>
+  <p>Li, W., Wu, X., Meng, Z., Li, X., Song, W., &amp; Zhao, P. (2026). Pervasive seasonal divergence in lagged responses of vegetation growth to compound drought-heat stress on the Tibetan Plateau. <em>Frontiers in Plant Science</em>, 17, 1879954.</p>
+
+<p><a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1879954/full">Article Link</a></p>
+
+<ol>
+  <li><a href="#1-the-highlight-of-this-article">The highlight of this article</a></li>
+  <li><a href="#2-study-area-and-data">Study area and data</a></li>
+  <li><a href="#3-methods">Methods</a></li>
+  <li><a href="#4-key-findings">Key findings</a></li>
+  <li><a href="#5-contribution-and-innovation">Contribution and innovation</a></li>
+</ol>
+
+<h2 id="1-the-highlight-of-this-article">1. The highlight of this article</h2>
+
+<p>This article examines how vegetation on the Tibetan Plateau responds to compound drought-heat stress, with special attention to seasonal timing and lag effects. The Tibetan Plateau is warming rapidly, and vegetation responses to climate extremes may differ sharply between spring and summer because water availability, frozen soil thawing, atmospheric demand, and plant growth stages change through the growing season.</p>
+
+<p>The central finding is seasonal divergence. Spring compound drought-heat stress tends to produce a delayed vegetation response, while summer stress is more immediate. This distinction matters because ecosystem vulnerability cannot be fully understood by looking only at annual averages or single-season drought indices.</p>
+
+<h2 id="2-study-area-and-data">2. Study area and data</h2>
+
+<p>The study covers the Tibetan Plateau, a high-elevation region with strong climatic and vegetation gradients. The analysis combines climate, vegetation, soil, and topographic variables. Compound drought-heat stress is measured with a Compound Drought-Heat Index (CDHI), constructed from precipitation and temperature information. Vegetation growth is represented with MODIS NDVI, while environmental controls include precipitation, soil moisture, radiation, temperature, evapotranspiration, vapor pressure deficit, elevation, soil texture, and vegetation type.</p>
+
+<h2 id="3-methods">3. Methods</h2>
+
+<p>The analysis first estimates pixel-level relationships between CDHI and vegetation growth under different lag windows. For spring, the study evaluates response windows from 0 to 3 months. For summer, it evaluates response windows from 0 to 2 months, reflecting the expectation that vegetation responds more rapidly during the active growing season.</p>
+
+<p>The paper then compares vegetation types, especially forests and grasslands, and uses XGBoost with SHAP interpretation to identify which environmental factors help explain the spatial variation in vegetation sensitivity to compound drought-heat stress.</p>
+
+<h2 id="4-key-findings">4. Key findings</h2>
+
+<p><img class="img-fluid" src="/img/fpls2026/fpls_fig1_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 1 shows spring lag effects. A large share of the Plateau exhibits a one-month lagged response to spring compound drought-heat stress. This suggests that spring vegetation response is mediated by delayed soil thawing, soil moisture processes, and belowground biological activity rather than being purely immediate.</p>
+
+<p><img class="img-fluid" src="/img/fpls2026/fpls_fig2_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 2 shows summer lag effects. Compared with spring, summer vegetation responses are more immediate. This makes ecological sense: summer thermal conditions are already sufficient, so vegetation becomes more directly constrained by water limitation and atmospheric drying.</p>
+
+<p><img class="img-fluid" src="/img/fpls2026/fpls_fig3_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 3 compares forests and grasslands. Grasslands show stronger and faster sensitivity to compound drought-heat stress than forests, especially in summer. This pattern is consistent with shallower rooting systems, smaller carbon reserves, and stronger dependence on near-surface water.</p>
+
+<p><img class="img-fluid" src="/img/fpls2026/fpls_fig4_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 4 identifies important spring controls using SHAP. Spring precipitation, soil moisture, and shortwave radiation are key factors. The result suggests that spring vegetation response depends on the joint availability of water and energy, with frozen soil and delayed belowground recovery shaping the lag structure.</p>
+
+<p><img class="img-fluid" src="/img/fpls2026/fpls_fig5_raw.jpg" style="width: 90%; height: auto;" /></p>
+
+<p>Fig. 5 identifies important summer controls. Summer precipitation and evapotranspiration become more central, while spring conditions such as spring radiation, spring CDHI, spring precipitation, and spring soil moisture still appear in the summer model. This supports the idea of cross-seasonal memory: spring climate conditions can influence how vegetation responds later in summer.</p>
+
+<h2 id="5-contribution-and-innovation">5. Contribution and innovation</h2>
+
+<p>This article contributes to vegetation-climate research in three main ways.</p>
+
+<p>First, it treats compound drought-heat stress as a joint hazard rather than separating drought and heat. This is important because concurrent heat and water stress can intensify vegetation impacts beyond either driver alone.</p>
+
+<p>Second, it emphasizes seasonal lag structure. The study shows that spring and summer should not be treated as interchangeable growing-season periods. Spring responses are delayed by thermal and belowground constraints, while summer responses are more immediate because water limitation becomes dominant.</p>
+
+<p>Third, it combines spatial correlation analysis with machine learning interpretation. XGBoost and SHAP help move beyond mapping where vegetation responds by identifying which environmental factors are associated with stronger sensitivity.</p>
+
+<p>Overall, the study shows that ecosystem vulnerability on the Tibetan Plateau is shaped by timing, vegetation type, and cross-seasonal memory. This provides a more nuanced basis for predicting how high-elevation ecosystems may respond to intensifying compound climate extremes.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
