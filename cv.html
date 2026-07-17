@@ -35,7 +35,7 @@ layout: home
     <div class="row">
       <div class="col">
         <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-        <p class="text-center">Abbreviated Curriculum Vitae (complete CV is <a href="https://github.com/XiangLi-USF/xiangli-usf.github.io/blob/main/CV_XiangLi_20250719.pdf">here</a>)</p>
+        <p class="text-center">Abbreviated Curriculum Vitae (complete CV is <a href="{{ '/CV_XiangLi_0701.pdf' | prepend: site.baseurl }}">here</a>)</p>
       </div>
     </div>
 
@@ -235,8 +235,11 @@ layout: home
         <div class="row mb-3">
           <div class="col-9">
             <p class="mb-0">
-              <b>{{ entry.name }}</b>{% if entry.author and entry.author != "" %}, {{ entry.author }}{% endif %}, <em>{{ entry.publisher }}</em>
+              <b>{{ entry.name }}</b>, <em>{{ entry.publisher }}</em>
             </p>
+            {% if entry.author and entry.author != "" %}
+            <p class="mb-0">{{ entry.author | replace: "Xiang Li", "<b>Xiang Li</b>" }}</p>
+            {% endif %}
             {% if entry.website %}
             <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
             {% endif %}
@@ -304,6 +307,6 @@ layout: home
     {% endif %}
 
     <hr>
-    <p class="text-center">Complete CV is <a href="https://github.com/philipmjohnson/cv/raw/master/philipmjohnson-cv.pdf">here</a></p>
+    <p class="text-center">Complete CV is <a href="{{ '/CV_XiangLi_0701.pdf' | prepend: site.baseurl }}">here</a></p>
   </div>
 </div>
