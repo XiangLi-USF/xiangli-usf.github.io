@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Xiang Li",
-    "label": "Ph.D.",
+    "label": "Postdoctoral Researcher",
     "picture": "https://avatars.githubusercontent.com/u/111073560?s=400&u=f4fc1e6e53c53d74f3c5d2bac139be59c15bebca&v=4",
     "email": "xiang11@usf.edu",
     "phone": "727-430-8657",
     "website": "xiangli-usf.github.io",
-    "summary": "I earned my PhD degree in Geography and Environmental Science and Policy from <a href='https://www.usf.edu/arts-sciences/departments/geosciences/index.aspx'>University of South Florida</a>",
-    "location": {"address": "NES 107, University of South Florida", "postalCode": "33620", "city": "Tampa", "countryCode": "USA", "region": "Florida"  },
+    "summary": "I have joined <a href='https://xigong.wordpress.com/gonglab/'>Gong's Lab</a> at <a href='https://www.psu.edu/'>The Pennsylvania State University</a> as a Postdoctoral Researcher. I earned my PhD degree in Geography and Environmental Science and Policy from <a href='https://www.usf.edu/arts-sciences/departments/geosciences/index.aspx'>University of South Florida</a>",
+    "location": {"address": "219 Biobehavioral Health Building, 296 Henderson Drive, The Pennsylvania State University", "postalCode": "16802", "city": "University Park", "countryCode": "USA", "region": "PA"  },
     "profiles": [
       { "network": "linkedin", "username": "XiangLi", "url": "https://www.linkedin.com/in/xiang-li-b09a94249/" },
       { "network": "google", "username": "XiangLi", "url": "https://scholar.google.com/citations?user=8f8WetYAAAAJ&hl=en" },
@@ -47,6 +47,14 @@
   ],
 
   "work": [
+    {
+      "company": "The Pennsylvania State University",
+      "position": "Postdoctoral Researcher",
+      "website": "https://xigong.wordpress.com/gonglab/",
+      "startDate": "2026",
+      "endDate": "Present",
+      "summary": "Gong's Lab, Department of Biobehavioral Health"
+    },
     {
       "company": "University of South Florida",
       "position": "Graduate Teaching Associate",
